@@ -1,0 +1,320 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.content a{
+    
+        text-decoration: none;
+        color: white;
+    
+}
+
+li{
+    list-style-type: none;
+}
+header{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.layout{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+nav{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999999;
+}
+nav h1{
+    font-size: 150%;
+
+}
+header .content{
+    width: 17%;
+}
+header .content h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+header .content h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+header .content h2::after{
+    content: ' |';
+    animation-name: motion;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.blank{
+    background-color: gray;
+    height: 30px;
+    color: white;
+}
+.percentage1{
+    width: 95%;
+    background-color: black;
+}
+.percentage2{
+    width: 80%;
+    background-color: black;
+}
+.percentage3{
+    width: 90%;
+    background-color: black;
+}
+.btn1{
+    color: white;
+    background-color: black;
+}
+.btn2{
+    background-color: white;
+    color: gray;
+}
+.btn1:hover{
+    color: gray;
+    background-color: white;
+    font-weight: 200;
+}
+.btn2:hover{
+    color: white;
+    background-color: black;
+    font-weight: 500;
+}
+@keyframes motion {
+    0%{     content: ' |'}
+    2%{     content: ' M|'}
+    4%{     content: ' Mo|'}
+    6%{     content: ' Moh|'}
+    8%{     content: ' MOha|'}
+    10%{     content: ' Moham|'}
+    12%{     content: ' Mohame|'}
+    14%{     content: ' Mohamed|'}
+    16%{     content: ' Mohamed T|'}
+    18%{     content: ' Mohamed Ta|'}
+    20%{     content: ' Mohamed Tar|'}
+    22%{     content: ' Mohamed Tare|'}
+    24%{     content: ' Mohamed Daniels|'}
+    26%{     content: ' Larry Daniel|'}
+    28%{     content: ' Larry Danie|'}
+    30%{     content: ' Larry Dani|'}
+    32%{     content: ' Larry Dan|'}
+    34%{     content: ' Larry Da|'}
+    36%{     content: ' Larry D|'}
+    38%{     content: ' Larry |'}
+    40%{     content: ' Larry|'}
+    42%{     content: ' Larr|'}
+    44%{     content: ' Lar|'}
+    46%{     content: ' La|'}
+    48%{     content: ' L|'}
+    50%{     content: ' D|'}
+    52%{     content: ' De|'}
+    54%{     content: ' Dev|'}
+    56%{     content: ' Deve|'}
+    58%{     content: ' Devel|'}
+    60%{     content: ' Develo|'}
+    62%{     content: ' Develop|'}
+    64%{     content: ' Develope|'}
+    66%{     content: ' Developer|'}
+    68%{     content: ' Develope|'}
+    70%{     content: ' Develop|'}
+    72%{     content: ' Develo|'}
+    74%{     content: ' Devel|'}
+    76%{     content: ' Deve|'}
+    78%{     content: ' Dev|'}
+    80%{     content: ' De|'}
+    82%{     content: ' D|'}
+    84%{     content: ' |'}
+    86%{     content: ' D|'}
+    87%{     content: ' De|'}
+    88%{     content: ' Des|'}
+    89%{     content: ' Desi|'}
+    90%{     content: ' Desig|'}
+    91%{     content: ' Design|'}
+    92%{     content: ' Designe|'}
+    93%{     content: ' Designer|'}
+    94%{     content: ' Designe|'}
+    95%{     content: ' Design|'}
+    96%{     content: ' Desig|'}
+    97%{     content: ' Desi|'}
+    98%{     content: ' Des|'}
+    98.5%{     content: ' De|'}
+    99%{     content: ' D|'}
+    100%{     content: ' |'}
+}
+
+
+#works ul{
+    width: 35%;
+}
+#works a{
+    font-size: 120%;
+    text-decoration: none;
+    color: black;
+}
+ 
+
+.layer{
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#works .col-4:hover .layer{
+    opacity: 1;
+}
+.iconnn{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.carousel-btn{
+    background-color: gray;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+   
+}
+.carousel-slide{
+    width: 70%;
+}
+#blog a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.linkk{
+    font-size: 80%;
+}
+.line{
+    background-color: black;
+    width: 70px;
+    height: 2px;
+}
+.iicon{
+    background-color: rgb(236, 236, 236);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: background-color 0.5,color 0.5;
+    -webkit-transition: background-color 0.5,color 0.5;
+    -moz-transition: background-color 0.5,color 0.5;
+    -ms-transition: background-color 0.5,color 0.5;
+    -o-transition: background-color 0.5,color 0.5;
+}
+#contact .col-4:hover .iicon{
+    background-color: black;
+    color: white;
+}
+input{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(214, 211, 211);
+    border: none;
+}
+textarea{
+    
+    background-color: rgb(214, 211, 211);
+    border: none;
+}
+::placeholder{
+    padding-left: 0;
+}
+.col-4:hover .photo img{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+}
+.icons{
+    width: 50%;
+}
+
+/* services */
+.service-item .icon{
+    
+    height: 70px;
+    width: 70px;
+    background-color:#f4f4f4;
+    color: black;
+    border-radius: 50%;
+
+}
+.col-md-4 .service-item:hover i{
+    background-color: black;
+    color: white;
+}
+
+i{
+    transition: background-color 0.5s, color 0.5s;
+    -webkit-transition: background-color 0.5s, color 0.5s;
+    -moz-transition: background-color 0.5s, color 0.5s;
+    -ms-transition: background-color 0.5s, color 0.5s;
+    -o-transition: background-color 0.5s, color 0.5s;
+}
+
+
+/* services */
+/* blog new edits */
+img {
+    transition: transform 1s;
+    -webkit-transition: transform 0,5s;
+    -moz-transition: transform 0,5s;
+    -ms-transition: transform 0,5s;
+    -o-transition: transform 0,5s;
+}
+#photo img:hover{
+    transform:scale(1.2,1.2);
+    -webkit-transform:scale(1.2,1.2);
+    -moz-transform:scale(1.2,1.2);
+    -ms-transform:scale(1.2,1.2);
+    -o-transform:scale(1.2,1.2);
+}
+
+
+
+
+@media screen and (max-width:660px){
+    .col-md-7 .item{
+        margin-bottom: 100px;
+    }
+}
+
+/* Custom css */
+
+.ico:hover{
+    color: blue;
+}
+
+.icoo:hover{
+    color: red;
+}
+
+/* Custom css */
